@@ -57,7 +57,7 @@ class GlobalHeader extends Component {
 		return (
 			<header className="header">
 				<div className="container">
-					<Link to="/" className="logo-link">Home</Link>
+					{/* <Link to="/" className="logo-link">Home</Link> */}
 					<label>{this.props.item.customFields.siteName}</label>
 					<ul className="links">
 						{this.renderLinks()}
@@ -68,5 +68,3 @@ class GlobalHeader extends Component {
 		);
 	}
 }
-
-
