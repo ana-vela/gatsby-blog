@@ -3,17 +3,16 @@ import { Helmet } from "react-helmet"
 
 const SEO = ({ title, description }) => {
     return (
-        <Helmet 
-            title={`${title}  - Blog Template`}
+        <Helmet
+            title={`${title}  - Ana Vela`}
             meta={[
                 {
-                    name: `description`,
+                    name: `Front-End Developer Blog and Portfolio`,
                     content: description
                 }
-            ]} 
+            ]}
         />
     )
 }
 
 export default SEO;
-
